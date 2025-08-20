@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/src/foundation/diagnostics.dart';
 
 void main() {
   runApp(const OmarBloc());
@@ -6,7 +7,6 @@ void main() {
 
 class OmarBloc extends StatelessWidget {
   const OmarBloc({super.key});
-
 
   @override
   Widget build(BuildContext context) {
